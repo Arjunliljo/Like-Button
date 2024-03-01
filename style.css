@@ -21,18 +21,87 @@
 }
 .icon{
     font-size: 6rem;
-    transition: .5s all;
+    color: gray;
     transform-origin: bottom left;
 }
 
-.icon:hover{
-    transform: rotate(-10deg);
-}
-
-.icon span{
+.icon > span{
     font-size: 3rem;
 }
 .like-box button{
     padding: .5rem 1rem;
     cursor: pointer;
+    transition: .5s all;
+}
+.like-box button:hover{
+    background-color: gray;
+    color: white;
+}
+.likes{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
